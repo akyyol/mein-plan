@@ -1,0 +1,408 @@
+{
+  "schema": 1,
+  "year": 2027,
+  "salaryMonthly": 0,
+  "salaryExtra": 0,
+  "bonusMonth": null,
+  "healthProvider": "",
+  "healthSupplemental": "",
+  "rows": [
+    {
+      "id": "rent",
+      "label": "Miete inkl. Nebenkosten",
+      "group": "Wohnen & Haushalt",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "electricity",
+      "label": "Strom",
+      "group": "Wohnen & Haushalt",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "parking",
+      "label": "Parkplatz / Garage zusätzlich",
+      "group": "Wohnen & Haushalt",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "household",
+      "label": "Lebensmittel & Haushaltsartikel",
+      "group": "Wohnen & Haushalt",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "homeinsurance",
+      "label": "Hausrat & Privathaftpflicht",
+      "group": "Wohnen & Haushalt",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "serafe",
+      "label": "Serafe Radio-/TV-Abgabe",
+      "group": "Wohnen & Haushalt",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "waste",
+      "label": "Kehricht / Entsorgung",
+      "group": "Wohnen & Haushalt",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "healthpremium",
+      "label": "Krankenkassenprämie",
+      "group": "Gesundheit",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "urine",
+      "label": "Urinproben",
+      "group": "Gesundheit",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "medical",
+      "label": "Arzt & Medikamente selbst bezahlt",
+      "group": "Gesundheit",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "dentist",
+      "label": "Zahnarzt / Dentalhygiene",
+      "group": "Gesundheit",
+      "amount": null,
+      "period": "year",
+      "note": "Trage die Gesamtrechnung und den tatsächlichen Beitrag der Versicherung ein. Nur dein Eigenanteil wird budgetiert.",
+      "from": "",
+      "to": "",
+      "dentalGross": null,
+      "dentalReimbursement": null
+    },
+    {
+      "id": "lease-own",
+      "label": "Leasing eigenes Auto",
+      "group": "Eigenes Auto",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "insurance-own",
+      "label": "Versicherung eigenes Auto",
+      "group": "Eigenes Auto",
+      "amount": null,
+      "period": "halfyear",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "tax-own",
+      "label": "Verkehrssteuer eigenes Auto",
+      "group": "Eigenes Auto",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "service-own",
+      "label": "Service, Reifen & Reparaturen Auto",
+      "group": "Eigenes Auto",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "fuel",
+      "label": "Tanken",
+      "group": "Eigenes Auto",
+      "amount": null,
+      "period": "month",
+      "note": "Der Plan multipliziert den Preis einer Tankfüllung mit deiner Anzahl Tankfüllungen pro Monat.",
+      "from": "",
+      "to": "",
+      "kind": "fuel",
+      "units": 1
+    },
+    {
+      "id": "lease-mother",
+      "label": "Leasing Auto der Mutter",
+      "group": "Auto der Mutter",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "insurance-mother",
+      "label": "Versicherung Auto der Mutter",
+      "group": "Auto der Mutter",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "tax-mother",
+      "label": "Verkehrssteuer Auto der Mutter",
+      "group": "Auto der Mutter",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "service-mother",
+      "label": "Werkstattkosten Auto der Mutter",
+      "group": "Auto der Mutter",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "lease-moto",
+      "label": "Leasing Motorrad",
+      "group": "Motorrad",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "insurance-moto",
+      "label": "Versicherung Motorrad",
+      "group": "Motorrad",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "tax-moto",
+      "label": "Verkehrssteuer Motorrad",
+      "group": "Motorrad",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "service-moto",
+      "label": "Service & Reifen Motorrad",
+      "group": "Motorrad",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "phone",
+      "label": "Handyabo",
+      "group": "Handy & Abos",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "internet",
+      "label": "Internet zu Hause",
+      "group": "Handy & Abos",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "netflix",
+      "label": "Netflix",
+      "group": "Handy & Abos",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "spotify",
+      "label": "Spotify",
+      "group": "Handy & Abos",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube Premium Einzelabo",
+      "group": "Handy & Abos",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "disney",
+      "label": "Disney+",
+      "group": "Handy & Abos",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "icloud",
+      "label": "iCloud-Speicher",
+      "group": "Handy & Abos",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "fitness",
+      "label": "Fitnessabo",
+      "group": "Handy & Abos",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "clothes",
+      "label": "Kleider & Schuhe",
+      "group": "Persönliches & Freizeit",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "hair",
+      "label": "Coiffeur / Haarschnitt",
+      "group": "Persönliches & Freizeit",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "smoking",
+      "label": "Rauchen",
+      "group": "Persönliches & Freizeit",
+      "amount": null,
+      "period": "month",
+      "note": "Trage den Packungspreis und die Anzahl Tage ein, die eine Packung reicht.",
+      "from": "",
+      "to": "",
+      "kind": "smoking",
+      "units": 1
+    },
+    {
+      "id": "holidays",
+      "label": "Ferien",
+      "group": "Persönliches & Freizeit",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "gifts",
+      "label": "Geschenke",
+      "group": "Persönliches & Freizeit",
+      "amount": null,
+      "period": "year",
+      "note": "Trage den Betrag und bei Bedarf den ersten und letzten Zahlungsmonat ein. 0 bedeutet, dass du dafür nichts bezahlst.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "tax-reserve",
+      "label": "Steuerrücklage – vorläufig",
+      "group": "Rücklagen",
+      "amount": null,
+      "period": "month",
+      "note": "Die monatliche Steuerrücklage ist ein Planbetrag. Bei Änderungen von Lohn oder Abzügen neu prüfen.",
+      "from": "",
+      "to": ""
+    },
+    {
+      "id": "emergency",
+      "label": "Notgroschen aufbauen",
+      "group": "Rücklagen",
+      "amount": null,
+      "period": "month",
+      "note": "Lege deinen Sparbetrag fest, sobald alle Kosten eingetragen sind. 0 ist möglich.",
+      "from": "",
+      "to": ""
+    }
+  ],
+  "taxEstimate": null
+}
