@@ -5,7 +5,7 @@ const ITERATIONS=600000;
 const b64=bytes=>btoa(Array.from(bytes,b=>String.fromCharCode(b)).join('')).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
 const unb64=text=>Uint8Array.from(atob(text.replace(/-/g,'+').replace(/_/g,'/')),c=>c.charCodeAt(0));
 
-export function isVault(value){return typeof value==='string'&&value.startsWith(PREFIX)&&value.length<50000;}
+export function isVault(value){return typeof value==='string'&&value.startsWith(PREFIX)&&value.length<6000000;}
 async function derive(password,salt){
   if(typeof password!=='string'||password.length<8)throw new Error('Passwort nicht erkannt.');
   const material=await crypto.subtle.importKey('raw',new TextEncoder().encode(password),'PBKDF2',false,['deriveKey']);
