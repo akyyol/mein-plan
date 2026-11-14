@@ -138,5 +138,6 @@ try{
   const response=await fetch('defaults.json');if(!response.ok)throw new Error('Vorlage konnte nicht geladen werden.');defaults=validateState(await response.json());
   try{const stored=localStorage.getItem(KEY);if(stored&&isVault(stored))pendingCipher=stored;}catch{storageOK=false;}
   if(!pendingCipher&&location.hash.startsWith('#start=')){const supplied=location.hash.slice(7);if(!isVault(supplied))throw new Error('Dieser Einrichtungslink ist nicht passwortgeschützt. Bitte den neuen geschützten Link verwenden.');pendingCipher=supplied;}
+  if(!pendingCipher){const initialResponse=await fetch('initial.json');if(!initialResponse.ok)throw new Error('Der geschützte Ausgangsplan konnte nicht geladen werden. Bitte später erneut öffnen.');const initial=await initialResponse.json();if(initial.format!=='stefan-budget-encrypted-v1'||!isVault(initial.cipher))throw new Error('Der Ausgangsplan ist ungültig.');pendingCipher=initial.cipher;}
   showLock();
 }catch(error){app.innerHTML=`<div class="notice"><strong>Das Budget konnte nicht gestartet werden.</strong><p>${esc(error.message)}</p></div>`;}
